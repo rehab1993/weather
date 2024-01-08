@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+   height: 50vh;
+   background-position: center;
+    margin-top: 110px;
+ 
+
+}
+
+.navbar-nav .nav-link.active{
+    border: solid 2px #219ad8;
+    border-radius: 40px;
+    padding: 4px 10px;
+}
+
+.search-input{
+    top: 100px;
+}
+.search-input::placeholder{
+   color:rgb(190, 185, 185)
+}
+.input button{
+    top: 104px;
+    right: 20px;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+.cards{
+    top: 250px;
+}

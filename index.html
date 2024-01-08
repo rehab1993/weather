@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top ">
+  <div class="container">
+    
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="p-4">Weather</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-4">
+          <li class="nav-item">
+            <a class="nav-link active m-2" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link m-2" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link m-2" href="#">Live camers</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link" href="#">contact</a>
+          </li>
+        </ul>
+       
+      </div>
+ 
+  </div>
+  </nav>
+
+
+ 
+
+<body class="position-relative">
+  <section>
+    <div class="container">
+      <div class="input position-relative" >
+        <input type="search" name="" id="search" placeholder="Find your location ...."  class="position-relative form-control search-input bg-black border-0 rounded-5 p-3 text-white">
+        <button class="btn btn-info text-white position-absolute" id="search-btn">Find</button>
+      </div>
+
+      <div class="container position-absolute cards">
+
+      <div class="row">
+
+        <div class="col-md-4">
+
+          <div class="card">
+            <div class="card-header">
+            <div class="day" id="today"> </div>
+            <div id="date"></div>
+           
+            </div>
+            <div class="card-body">
+             <div id="location"> </div>
+             <div class="Degree fw-bolder "> 
+              <div class="num"></div>
+              <div class="forecast-icon">
+                <img src="images/113.png" alt="" width="90" id="image">
+
+                <div class="custom"></div>
+                <span class="humidity">
+                  <img src="images/icon-umberella.png" alt="">"20%"
+                </span>
+                <span class="wind">
+                  <img src="images/icon-wind.png" alt="">"18km/h"
+                </span>
+                <span class="wind-dir">
+                  <img src="images/icon-compass.png" alt="">"East"
+                </span>
+
+              </div>
+
+
+             
+             </div>
+          
+             
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+
+          <div class="card">
+            <div class="card-header">
+            <div id="next-day"></div>
+            <div id="next-date">6 January</div>
+            </div>
+            <div class="card-body" >
+             <div id="location-2"> cairo</div>
+             <div id="Degree-2" class="fw-bold"> 
+              <div id="num-2">"18" <sup>o</sup> "c"</div>
+              <div class="forecast-icon">
+                <img src="images/113 (1).png" alt="" width="90" id="image-2">
+
+                <div class="custom"></div>
+                <span class="humidity-2">
+                  <img src="images/icon-umberella.png" alt="">"20%"
+                </span>
+                <span class="wind-2">
+                  <img src="images/icon-wind.png" alt="">"18km/h"
+                </span>
+                <span class="wind-dir-2">
+                  <img src="images/icon-compass.png" alt="">"East"
+                </span>
+
+              </div>
+
+
+             
+             </div>
+          
+             
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+            <div id="next-2days">Saturday</div>
+            <div id="next-2date">6 January</div>
+            </div>
+            <div class="card-body">
+             <div id="location-3"> cairo</div>
+             <div class="Degree fw-bold"> 
+              <div id="num-3">"18" <sup>o</sup> "c"</div>
+              <div class="forecast-icon">
+                <img src="images/113 (1).png" alt="" width="90" id="image-3">
+
+                <div class="custom"></div>
+                <span class="humidity-3">
+                  <img src="images/icon-umberella.png" alt="">"20%"
+                </span>
+                <span class="wind-3">
+                  <img src="images/icon-wind.png" alt="">"18km/h"
+                </span>
+                <span class="wind-dir-3">
+                  <img src="images/icon-compass.png" alt="">"East"
+                </span>
+
+        </div>
+      
+      </div>
+    </div>
+
+    </div>
+
+
+  </section>
+
+ 
+ 
+
+
+ <script src="js/bootstrap.bundle.min.js"></script>   
+ <script src="js/main.js">
+
+
+
+ </script>
+</body>
+</html>
